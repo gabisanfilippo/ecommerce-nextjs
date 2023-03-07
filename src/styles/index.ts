@@ -21,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
-  h1, h2, h3, h4, h5, h6, p {
+  h1, h2, h3, h4, h5, h6, p, li {
     font-weight: 400;
     color: var(--color-black);
     line-height: 140%
@@ -42,7 +42,7 @@ export const GlobalStyle = createGlobalStyle`
   h5{
     font-size: 0.875rem;
   }
-  p{
+  p, li{
     font-size: 1rem;
   }
 
@@ -60,5 +60,6 @@ export const GlobalStyle = createGlobalStyle`
     --color-white: #FFFFFF;
     --color-border-dark: #CAC6DA;
     --color-black: #000000;
+    --color-navigation: #726e8d;
   }
 `;
